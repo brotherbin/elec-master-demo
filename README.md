@@ -1,4 +1,12 @@
-# golang实现选举master
+<!--
+author: 宋达彬
+date: 2017-04-13
+title: golang实现通过zookeeper选举master
+tags: golang,zookeeper,master-slave
+category: golang
+status: publish
+-->
+# golang实现通过zookeeper选举master
 
 应用程序中有一个定时任务模块，之前是单机部署的，在实现多实例部署之后就对应用程序有了如下要求：
  - 一个定时任务只能在一个实例上运行
